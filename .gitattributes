@@ -1,0 +1,18 @@
+# Автоконвертация для текстовых файлов
+*.txt text
+*.properties text
+*.toml text
+*.bat text eol=crlf
+*.sh text eol=lf
+*.md text
+
+# Бинарные файлы - без конвертации
+*.jar binary
+*.jar.cache binary
+*.class binary
+*.png binary
+*.jpg binary
+
+# Логи лучше игнорировать целиком
+logs/* binary
+debug.log binary

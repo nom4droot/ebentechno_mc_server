@@ -1,0 +1,18 @@
+# Логи
+logs/
+*.log
+debug.log
+latest.log
+
+# Конфиги с паролями/ключами
+*.env
+secrets/
+
+# Временные файлы мира
+world/
+world_nether/
+world_the_end/
+
+# Системные файлы
+.DS_Store
+Thumbs.db

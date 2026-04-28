@@ -69,7 +69,7 @@ After=network.target
 
 [Service]
 Type=simple
-User=nom4d
+User=<юзер от которого запускается демон>
 WorkingDirectory=<папка с сервером>
 ExecStart=<sh скрипт с запуском>
 Restart=on-failure
